@@ -25,10 +25,10 @@ This project demonstrates how to create a layout with resizable panels using Rea
 4. Start the development server:
 
     ```bash
-    npm start
+    npm run dev
     ```
 
-5. Open your browser and visit `http://localhost:3000` to see the application running.
+5. Open your browser and visit the port on which your server is running.
 
 ## Usage
 
@@ -52,9 +52,4 @@ This project demonstrates how to create a layout with resizable panels using Rea
 - [React](https://reactjs.org/): A JavaScript library for building user interfaces.
 - [react-resizable-panels](https://www.npmjs.com/package/react-resizable-panels): A React component for resizable panels.
 
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
-
-
-Feel free to customize the README with additional information specific to your project!
+Backend was built using MongoDB and express js. There are 2 endpoints /api/add and /api/update/.
